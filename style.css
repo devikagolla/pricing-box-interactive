@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  color: hotpink;
+}
+
+.box {
+  border: 2px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.box-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.box-body {
+  margin-top: 10px;
+}
+
+.box-body.hidden {
+  display: none;
+}
+
+.box.most-popular {
+  border-color: hotpink;
+  position: relative;
+}
+
+.badge {
+  background-color: hotpink;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.unit-option {
+  margin-bottom: 8px;
+}
+
+select {
+  margin: 0 5px;
+  padding: 5px;
+}
+
+.discount {
+  background: pink;
+  color: red;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.price {
+  margin-left: auto;
+}
+
+.price s {
+  color: #aaa;
+  font-size: 0.9em;
+}
+
+.add-to-cart {
+  width: 100%;
+  padding: 12px;
+  background: hotpink;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background: deeppink;
+}

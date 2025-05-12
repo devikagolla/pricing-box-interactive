@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOGO Pricing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>YAY! It's BOGO</h2>
+
+    <div class="box" data-id="1">
+      <div class="box-header">
+        <input type="radio" name="unit" checked>
+        <span class="unit">1 Unit</span>
+        <span class="discount">10% Off</span>
+        <span class="price">$10.00 USD <s>$24.00 USD</s></span>
+      </div>
+      <div class="box-body hidden">
+        <label>Size:
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+        </label>
+        <label>Colour:
+          <select>
+            <option>Black</option>
+            <option>Red</option>
+            <option>Blue</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <div class="box most-popular" data-id="2">
+      <div class="box-header">
+        <input type="radio" name="unit">
+        <span class="unit">2 Unit</span>
+        <span class="discount">20% Off</span>
+        <span class="price">$18.00 USD <s>$48.00 USD</s></span>
+        <div class="badge">MOST POPULAR</div>
+      </div>
+      <div class="box-body hidden">
+        <div class="unit-option">
+          #1 Size:
+          <select>
+            <option>S</option><option>M</option><option>L</option>
+          </select>
+          Colour:
+          <select>
+            <option>Black</option><option>Red</option><option>Blue</option>
+          </select>
+        </div>
+        <div class="unit-option">
+          #2 Size:
+          <select>
+            <option>S</option><option>M</option><option>L</option>
+          </select>
+          Colour:
+          <select>
+            <option>Black</option><option>Red</option><option>Blue</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" data-id="3">
+      <div class="box-header">
+        <input type="radio" name="unit">
+        <span class="unit">3 Unit</span>
+        <span class="discount">30% Off</span>
+        <span class="price">$24.00 USD <s>$72.00 USD</s></span>
+      </div>
+      <div class="box-body hidden">
+        <div class="unit-option">#1 Size:
+          <select>
+            <option>S</option><option>M</option><option>L</option>
+          </select>
+          Colour:
+          <select>
+            <option>Black</option><option>Red</option><option>Blue</option>
+          </select>
+        </div>
+        <div class="unit-option">#2 Size:
+          <select>
+            <option>S</option><option>M</option><option>L</option>
+          </select>
+          Colour:
+          <select>
+            <option>Black</option><option>Red</option><option>Blue</option>
+          </select>
+        </div>
+        <div class="unit-option">#3 Size:
+          <select>
+            <option>S</option><option>M</option><option>L</option>
+          </select>
+          Colour:
+          <select>
+            <option>Black</option><option>Red</option><option>Blue</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <button class="add-to-cart">+ Add to Cart</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
